@@ -11,3 +11,23 @@ date: "2022-11-30"
 ## R Markdown
 bla bla
 
+create a new rproj en activant git
+modif gitignore (add rproj)
+terminal: git add .
+
+R: git commit -m "ini"
+usethis::use_github() # send to github
+create a rmd file index.html, knit
+
+terminal: git add . && git commit -m "send webpage"
+git push
+
+sur github: dans settings, pages: branch: master, /root
+dans code: un petit bouton orange est apparu (qui veut dire qu'une action est possible)
+dans actions: cliquer sur l'action
+A droite dans "about", on peut choisir le nom du site web et remplir son url. Si le fichier à la source n'est pas index.html, il faut rajouter ça pour pouvoir ouvrir la page web, e.g. skefi.github.io/webpage/file.html
+
+
+
+
+
